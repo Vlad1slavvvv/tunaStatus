@@ -12,7 +12,7 @@
 .column_right {
     padding: 0 50px;
     
-	
+
 }
 .column_left{
     border-right: 2px solid #676167;
@@ -111,12 +111,10 @@ h1,h2{
 }
 @media screen and (max-width: 575px) {
     .container{
-        max-width: 340px;
+        width: 350px;
         flex-direction: column;
         padding: 0 20px;
         align-items: flex-start;
-
-
     }
     .city{
         flex-direction: column;
@@ -124,8 +122,4 @@ h1,h2{
     }
     .column_left{
         border-right: none;
-    
     }
-    }
-    
-}
