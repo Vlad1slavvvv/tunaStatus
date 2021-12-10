@@ -111,10 +111,10 @@ h1,h2{
 }
 @media screen and (max-width: 575px) {
     .container{
-        width: 350px;
         flex-direction: column;
         padding: 0 20px;
         align-items: flex-start;
+        overflow-x: hidden;
     }
     .city{
         flex-direction: column;
@@ -123,3 +123,4 @@ h1,h2{
     .column_left{
         border-right: none;
     }
+    
