@@ -3,18 +3,20 @@
     margin: 0 auto;
     display: flex;
     flex-direction: row;
+    
 }
 
 .shops{
 
 }
 .column_right {
+    padding: 0 50px;
     
 	
 }
 .column_left{
-    
-	
+    border-right: 2px solid #676167;
+
 }
 .city{
 	display: flex;
@@ -27,7 +29,7 @@
 }
 .button1{
 	font-size: 1.2em;
-	border: 1px solid black;
+	border: 1px solid white;
 	background-color: #2E2C2E;
 	color: white;
     padding: 0.7em 2em;
@@ -40,8 +42,9 @@
 	background-color: #6E6571 ;
 }
 body{
-	background-color: #534D55;
-	font-family: Arial, "Palatino Linotype", serif;
+	background-color: #141214;
+	font-family: "Palatino Linotype", serif;
+    color: white;
 }
 h1,h2{
 	text-align: center;
@@ -93,6 +96,7 @@ h1,h2{
 @media screen and (max-width: 1199px) {
     .container{
         width: 960px;
+        padding-right: 50px;
     }
 }
 @media screen and (max-width: 991px) {
@@ -117,7 +121,8 @@ h1,h2{
         flex-direction: column;
         align-items: center;
     }
-    .button1{
+    .column_left{
+        border-right: none;
     
     }
     }
